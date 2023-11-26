@@ -1,9 +1,21 @@
 /**
  * features
  */
-.features__content{
-    & p {
-        text-align: justify;
-        padding-right: 20px;
+.features{
+    &__icon{
+        & img{
+        width: 50px;
+        }
+    }
+    &__content{
+        & p {
+            text-align: justify;
+            // padding-right: 20px;
+        }
+        & a{
+            font-size: 16px;
+            color: #7f7d9f;
+            font-weight: 700;
+        }
     }
 }

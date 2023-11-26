@@ -1,0 +1,33 @@
+/**
+ * Facts
+ */
+.fact-area{
+    padding: 50px 0;
+    align-items: center;
+    text-align: center;
+    & .fact{
+        border-right: 1px solid #2d2d35 ;
+        & img{
+            width: 50px;
+        }
+        & h2{
+            color: $white;
+            margin: 0;
+            padding: 20px 0 10px;
+            font-size: 70px;
+            & span{
+                font-size: 20px;
+                color: $theme-color;
+            }
+        }
+        & span{
+            color: $theme-color;
+            font-size: 14px;
+            letter-spacing: 2px;
+        }
+    }
+}
+
+.fact-area .fact::last-child {
+    border-right: 0 solid #fff;
+}
