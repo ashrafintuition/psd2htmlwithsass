@@ -1,0 +1,52 @@
+/* Section Title */
+.section-title {
+    position: relative;
+    margin-bottom: 40px;
+
+    & h6 {
+        color: $theme-color;
+        letter-spacing: 2px;
+        font-weight: 700;
+        margin-bottom: 20px;
+        text-transform: uppercase;
+        position: relative;
+        z-index: 9;
+    }
+
+    & h2 {
+        text-transform: capitalize;
+        font-size: 70px;
+        font-weight: 600;
+        letter-spacing: -.3px;
+        position: relative;
+        z-index: 9;
+    }
+
+    & .back-title {
+        font-family: $merri;
+        font-style: italic;
+        font-weight: 700;
+        position: absolute;
+        top: -64px;
+        right: 0;
+        left: 0;
+        color: #ededed;
+        font-size: 250px;
+        line-height: 1;
+        transition: .3s;
+    }
+    &:hover .back-title{
+        color: $theme-color;
+        opacity: .45;
+    }
+}
+
+.section-title-white{
+    & h2{
+        color: #fff;
+    }
+    & h3{
+        color: #888888;
+        opacity: .1;
+    }
+}

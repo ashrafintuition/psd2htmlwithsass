@@ -1,0 +1,66 @@
+
+/* Contact Us Area */
+.join-us-area{
+    position: relative;
+    z-index: 2;
+}
+ 
+.join-form{
+    & label{
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        color: $white;
+        font-size: 14px;
+        display: block;
+        font-size: 700;
+        margin-bottom: 10px;
+        & span{
+            color: $theme-color;
+        }
+    }
+    & input{
+        background: none;
+        border: 2px solid #2f2c37;
+        height: 65px;
+        padding: 0 30px;
+        width: 100%;
+        color: #86858b;
+
+        &::placeholder{
+            color: #86858b;
+            font-size: 14px;
+            opacity: 1;
+        }
+        &::-moz-placeholder{
+            color: #86858b;
+            font-size: 14px;
+            opacity: 1;
+        }
+    }
+    & select{
+        height: 65px;
+        width: 100%;
+        padding: 0 30px;
+        color: #86858b;
+        background: none;
+        border: 2px solid #2f2c37;
+        display: block;
+        -moz-appearance: none;
+        appearance: none;
+    }
+}
+
+
+.join-select{
+    position: relative;
+    &:before{
+        font-family: "Font Awesome 6 Free";
+        content: "\f107";
+        display: inline-block;
+        vertical-align: middle;
+        font-weight: 900;
+        position: absolute;
+        right: 30px;
+        top: 18px;
+    }
+}
