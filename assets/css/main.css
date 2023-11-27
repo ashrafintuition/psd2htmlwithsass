@@ -2696,4 +2696,53 @@ label {
 
 .fact-area .fact::last-child {
   border-right: 0 solid #fff;
+}
+
+/**
+ * Testimonials 
+ */
+.testimonials-area {
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  margin: 30px 0;
+}
+
+.testimonial img {
+  margin-bottom: 30px;
+  display: inline-block;
+}
+.testimonial p {
+  font-size: 26px;
+  line-height: 1.3;
+}
+.testimonial h3 {
+  font-size: 26px;
+  margin-bottom: 10px;
+}
+.testimonial span {
+  letter-spacing: 2px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #ec6e39;
+  font-size: 14px;
+}
+
+.testimonial-thumb img {
+  display: inline-block;
+  transform: scale(0.8);
+  transition: 0.3s;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.3);
+  border-radius: 50%;
+}
+.testimonial-thumb img.slick-center {
+  transform: scale(1);
+}
+
+.testimonial-nav-width {
+  width: 300px;
+  margin: auto;
+}
+.testimonial-nav-width .slick-track {
+  padding-bottom: 30px;
 }/*# sourceMappingURL=main.css.map */
