@@ -82,7 +82,9 @@
 		slidesToScroll: 1,
 		arrows: false,
 		fade: true,
-		asNavFor: '.testimonial-thumb'
+		asNavFor: '.testimonial-thumb',
+		autoplay: true,
+		autoplaySpeed: 2000,
 	});
 	$('.testimonial-thumb').slick({
 		slidesToShow: 3,

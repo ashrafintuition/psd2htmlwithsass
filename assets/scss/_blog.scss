@@ -1,0 +1,42 @@
+/**
+ * Blog Area
+ */
+.funblog {
+    background: $white;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.1);
+    transition: .3s;
+    &:hover{
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.0);
+    }
+    &__img {
+        & a {
+            & img {
+                width: 100%;
+            }
+        }
+    }
+
+    &__content {
+        padding: 30px;
+        & h4{
+            font-size: 22px;
+            text-transform: capitalize;
+            margin-bottom: 15px;
+        }
+        & p{
+            text-align: justify;
+        }
+        & .sub-title{
+            color: $theme-color;
+            text-transform: uppercase;
+            font-weight: 700;
+            letter-spacing: 2px;
+            margin-bottom: 10px;
+            display: block;
+        }
+        &-link{
+            color: $theme-color;
+        }
+    }
+
+}
