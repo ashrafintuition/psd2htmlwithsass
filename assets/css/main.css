@@ -2782,4 +2782,44 @@ label {
 }
 .funblog__content-link {
   color: #ec6e39;
+}
+
+/**
+ * Footer area
+ */
+.footer-area .footer-widget .footer-title {
+  color: #ffffff;
+  margin-bottom: 15px;
+}
+.footer-area .footer-widget p {
+  color: #ffffff;
+}
+.footer-area .footer-widget ul li a {
+  color: #ffffff;
+  display: block;
+  font-size: 14px;
+  padding-bottom: 15px;
+}
+.footer-area .footer-widget .footer-post .single-footer-post {
+  margin-bottom: 15px;
+}
+.footer-area .footer-widget .footer-post .single-footer-post span {
+  color: #ec6e39;
+  font-size: 12px;
+  display: block;
+  margin-bottom: 5px;
+}
+.footer-area .footer-widget .footer-post .single-footer-post h4 {
+  color: #ffffff;
+  font-size: 18px;
+}
+
+hr.hr-style {
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(255, 255, 255, 0.75), rgba(0, 0, 0, 0));
+}
+
+.copyright a {
+  color: #ec6e39;
 }/*# sourceMappingURL=main.css.map */
