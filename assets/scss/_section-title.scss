@@ -42,15 +42,21 @@
         right: 0;
         left: 0;
         color: #ededed;
-        font-size: 250px;
+        font-size: 100px;
         line-height: 1;
         transition: .3s;
 
+        @media #{$laptop} {
+            font-size: 250px;
+        }
         @media #{$lg} {
             font-size: 200px;
         }
         @media #{$md} {
             font-size: 160px;
+        }
+        @media #{$xs} {
+            font-size: 90px;
         }
     }
 

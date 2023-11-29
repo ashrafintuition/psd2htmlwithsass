@@ -2458,9 +2458,14 @@ label {
   right: 0;
   left: 0;
   color: #ededed;
-  font-size: 250px;
+  font-size: 100px;
   line-height: 1;
   transition: 0.3s;
+}
+@media only screen and (min-width: 1200px) and (max-width: 1600px) {
+  .section-title .back-title {
+    font-size: 250px;
+  }
 }
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
   .section-title .back-title {
@@ -2470,6 +2475,11 @@ label {
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .section-title .back-title {
     font-size: 160px;
+  }
+}
+@media (max-width: 767px) {
+  .section-title .back-title {
+    font-size: 90px;
   }
 }
 .section-title:hover .back-title {
