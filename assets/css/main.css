@@ -1862,6 +1862,167 @@ label {
   padding-left: 200px;
 }
 
+/*-- Padding lg Left --*/
+.pl-lg-5 {
+  padding-left: 5px;
+}
+
+.pl-lg-10 {
+  padding-left: 10px;
+}
+
+.pl-lg-15 {
+  padding-left: 15px;
+}
+
+.pl-lg-20 {
+  padding-left: 20px;
+}
+
+.pl-lg-25 {
+  padding-left: 25px;
+}
+
+.pl-lg-30 {
+  padding-left: 30px;
+}
+
+.pl-lg-35 {
+  padding-left: 35px;
+}
+
+.pl-lg-40 {
+  padding-left: 40px;
+}
+
+.pl-lg-45 {
+  padding-left: 45px;
+}
+
+.pl-lg-50 {
+  padding-left: 50px;
+}
+
+.pl-lg-55 {
+  padding-left: 55px;
+}
+
+.pl-lg-60 {
+  padding-left: 60px;
+}
+
+.pl-lg-65 {
+  padding-left: 65px;
+}
+
+.pl-lg-70 {
+  padding-left: 70px;
+}
+
+.pl-lg-75 {
+  padding-left: 75px;
+}
+
+.pl-lg-80 {
+  padding-left: 80px;
+}
+
+.pl-lg-85 {
+  padding-left: 85px;
+}
+
+.pl-lg-90 {
+  padding-left: 90px;
+}
+
+.pl-lg-95 {
+  padding-left: 95px;
+}
+
+.pl-lg-100 {
+  padding-left: 100px;
+}
+
+.pl-lg-105 {
+  padding-left: 105px;
+}
+
+.pl-lg-110 {
+  padding-left: 110px;
+}
+
+.pl-lg-115 {
+  padding-left: 115px;
+}
+
+.pl-lg-120 {
+  padding-left: 120px;
+}
+
+.pl-lg-125 {
+  padding-left: 125px;
+}
+
+.pl-lg-130 {
+  padding-left: 130px;
+}
+
+.pl-lg-135 {
+  padding-left: 135px;
+}
+
+.pl-lg-140 {
+  padding-left: 140px;
+}
+
+.pl-lg-145 {
+  padding-left: 145px;
+}
+
+.pl-lg-150 {
+  padding-left: 150px;
+}
+
+.pl-lg-155 {
+  padding-left: 155px;
+}
+
+.pl-lg-160 {
+  padding-left: 160px;
+}
+
+.pl-lg-165 {
+  padding-left: 165px;
+}
+
+.pl-lg-170 {
+  padding-left: 170px;
+}
+
+.pl-lg-175 {
+  padding-left: 175px;
+}
+
+.pl-lg-180 {
+  padding-left: 180px;
+}
+
+.pl-lg-185 {
+  padding-left: 185px;
+}
+
+.pl-lg-190 {
+  padding-left: 190px;
+}
+
+.pl-lg-195 {
+  padding-left: 195px;
+}
+
+.pl-lg-200 {
+  padding-left: 200px;
+}
+
 /*-- Padding Right --*/
 .pr-5 {
   padding-right: 5px;
@@ -2275,6 +2436,19 @@ label {
   position: relative;
   z-index: 9;
 }
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  .section-title h2 {
+    font-size: 56px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .section-title h2 {
+    font-size: 36px;
+  }
+  .section-title h2 br {
+    display: none;
+  }
+}
 .section-title .back-title {
   font-family: "Merriweather", serif;
   font-style: italic;
@@ -2287,6 +2461,16 @@ label {
   font-size: 250px;
   line-height: 1;
   transition: 0.3s;
+}
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  .section-title .back-title {
+    font-size: 200px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .section-title .back-title {
+    font-size: 160px;
+  }
 }
 .section-title:hover .back-title {
   color: #ec6e39;
@@ -2331,6 +2515,11 @@ label {
   display: inline-block;
   margin-left: 30px;
   position: relative;
+}
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  .main-menu ul li {
+    margin-left: 15px;
+  }
 }
 .main-menu ul li a {
   display: block;
@@ -2390,6 +2579,11 @@ label {
   border-radius: 30px;
   border: 2px solid #ec6e39;
 }
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  .s-btn {
+    padding: 15px 25px;
+  }
+}
 .s-btn:hover {
   color: #ec6e39;
   background-color: transparent;
@@ -2417,6 +2611,16 @@ label {
   background-position: center;
   background-size: cover;
 }
+@media only screen and (min-width: 1200px) and (max-width: 1600px) {
+  .single-slider {
+    min-height: 860px;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  .single-slider {
+    min-height: 760px;
+  }
+}
 
 .funslider span {
   color: #ec6e39;
@@ -2431,9 +2635,24 @@ label {
 .funslider h2 {
   font-size: 75px;
 }
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  .funslider h2 {
+    font-size: 56px;
+  }
+}
 
 .slider-img img {
   max-width: inherit;
+}
+@media only screen and (min-width: 1200px) and (max-width: 1600px) {
+  .slider-img img {
+    max-width: 100%;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  .slider-img img {
+    max-width: 100%;
+  }
 }
 
 /* about style */
@@ -2441,10 +2660,21 @@ label {
   max-width: inherit;
   margin-left: -40px;
 }
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  .about-img img {
+    max-width: 100%;
+    margin-left: 0;
+  }
+}
 
 .funabout__text h2 {
   font-size: 50px;
   margin-bottom: 25px;
+}
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  .funabout__text h2 {
+    font-size: 36px;
+  }
 }
 .funabout__link a {
   margin-right: 30px;
@@ -2467,6 +2697,16 @@ label {
   border: 1px solid transparent;
   transition: 0.3s;
 }
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  .events-date {
+    padding: 25px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .events-date {
+    padding: 15px;
+  }
+}
 .events-date h2 {
   color: #ffffff;
   font-size: 60px;
@@ -2480,22 +2720,67 @@ label {
   display: block;
   letter-spacing: 2px;
 }
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .events-date h2 {
+    font-size: 44px;
+    padding: 20px 0;
+  }
+}
 
 .events-text {
   margin-left: 30px;
 }
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .events-text {
+    margin-left: 10px;
+  }
+}
 .events-text h2 {
   margin-bottom: 15px;
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .events-text h2 {
+    margin-bottom: 5px;
+  }
 }
 .events-text h2 a {
   font-size: 36px;
 }
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  .events-text h2 a {
+    font-size: 28px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .events-text h2 a {
+    font-size: 22px;
+    line-height: 1;
+  }
+}
 .events-text p {
   margin: 0;
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .events-text p {
+    font-size: 12px;
+    line-height: 16px;
+    margin-bottom: 10px;
+  }
 }
 
 .events-btn .s-btn {
   padding: 20px 50px;
+}
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  .events-btn .s-btn {
+    padding: 15px 24px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .events-btn .s-btn {
+    padding: 10px 20px;
+    margin-left: 9px;
+  }
 }
 
 .events:hover .events-date {
@@ -2682,7 +2967,17 @@ label {
   color: #ffffff;
   margin: 0;
   padding: 20px 0 10px;
-  font-size: 70px;
+  font-size: 40px;
+}
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  .fact-area .fact h2 {
+    font-size: 56px;
+  }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1600px) {
+  .fact-area .fact h2 {
+    font-size: 70px;
+  }
 }
 .fact-area .fact h2 span {
   font-size: 20px;

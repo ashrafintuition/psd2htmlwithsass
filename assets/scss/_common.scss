@@ -311,6 +311,12 @@ label {
 		padding-left: 5px *$i;
 	}
 }
+/*-- Padding lg Left --*/
+@for $i from 1 through 40 {
+	.pl-lg-#{5 * $i} {
+		padding-left: 5px *$i;
+	}
+}
 
 /*-- Padding Right --*/
 @for $i from 1 through 40 {

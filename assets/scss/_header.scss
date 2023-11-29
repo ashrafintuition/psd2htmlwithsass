@@ -36,6 +36,9 @@
             display: inline-block;
             margin-left: 30px;
             position: relative;
+            @media #{$lg} {
+                margin-left: 15px;
+            }
 
             & a {
                 display: block;
@@ -105,6 +108,9 @@
     text-transform: uppercase;
     border-radius: 30px;
     border: 2px solid $theme-color;
+    @media #{$lg} {
+        padding: 15px 25px;
+    }
 
     &:hover {
         color: $theme-color;

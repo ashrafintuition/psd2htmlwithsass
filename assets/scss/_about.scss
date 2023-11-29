@@ -1,25 +1,36 @@
-
 /* about style */
-.about-img{
-    & img{
+.about-img {
+    & img {
         max-width: inherit;
         margin-left: -40px;
-    }
-}
-.funabout{
 
-    &__text{
-        & h2{
-            font-size: 50px;
-            margin-bottom: 25px;
+        @media #{$lg} {
+            max-width: 100%;
+            margin-left: 0;
         }
     }
-    &__link{
-        & a{
-        margin-right: 30px;
-        font-size: 16px;
-        font-weight: 700;
-            &:hover{
+}
+
+.funabout {
+
+    &__text {
+        & h2 {
+            font-size: 50px;
+            margin-bottom: 25px;
+
+            @media #{$lg} {
+                font-size: 36px;
+            }
+        }
+    }
+
+    &__link {
+        & a {
+            margin-right: 30px;
+            font-size: 16px;
+            font-weight: 700;
+
+            &:hover {
                 color: $theme-color;
             }
         }

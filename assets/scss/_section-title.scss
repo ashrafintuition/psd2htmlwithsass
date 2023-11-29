@@ -20,6 +20,17 @@
         letter-spacing: -.3px;
         position: relative;
         z-index: 9;
+
+        @media #{$lg} {
+            font-size: 56px;
+        }
+
+        @media #{$md} {
+            font-size: 36px;
+            & br{
+                display: none;
+            }
+        }
     }
 
     & .back-title {
@@ -34,18 +45,27 @@
         font-size: 250px;
         line-height: 1;
         transition: .3s;
+
+        @media #{$lg} {
+            font-size: 200px;
+        }
+        @media #{$md} {
+            font-size: 160px;
+        }
     }
-    &:hover .back-title{
+
+    &:hover .back-title {
         color: $theme-color;
         opacity: .45;
     }
 }
 
-.section-title-white{
-    & h2{
+.section-title-white {
+    & h2 {
         color: #fff;
     }
-    & h3{
+
+    & h3 {
         color: #888888;
         opacity: .1;
     }

@@ -14,7 +14,13 @@
             color: $white;
             margin: 0;
             padding: 20px 0 10px;
-            font-size: 70px;
+            font-size: 40px;
+            @media #{$lg} {
+                font-size: 56px;
+            }
+            @media #{$laptop} {
+                font-size: 70px;
+            }
             & span{
                 font-size: 20px;
                 color: $theme-color;

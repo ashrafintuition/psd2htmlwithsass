@@ -4,6 +4,12 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    @media #{$laptop} {
+        min-height: 860px;
+    }
+    @media #{$lg} {
+        min-height: 760px;
+    }
 }
 
 .funslider {
@@ -21,11 +27,21 @@
 
     & h2 {
         font-size: 75px;
+        @media #{$lg} {
+            font-size: 56px;
+        }
     }
 }
 
 .slider-img {
     & img {
         max-width: inherit;
+
+        @media #{$laptop} {
+            max-width: 100%;
+        }
+        @media #{$lg} {
+            max-width: 100% ;
+        }
     }
 }

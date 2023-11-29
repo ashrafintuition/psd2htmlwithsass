@@ -9,6 +9,12 @@
     text-align: center;
     border: 1px solid transparent;
     transition: .3s;
+    @media #{$lg} {
+        padding: 25px;
+    }
+    @media #{$md} {
+        padding: 15px;
+    }
     & h2{
         color: $white;
         font-size: 60px;
@@ -21,24 +27,53 @@
             display: block;
             letter-spacing: 2px;
         }
+        @media #{$md} {
+            font-size: 44px;
+            padding: 20px 0;
+        }
     }
 }
 
 .events-text{
     margin-left: 30px;
+    @media #{$md} {
+        margin-left: 10px;
+    }
     & h2{
         margin-bottom: 15px;
+        @media #{$md} {
+margin-bottom: 5px;
+        }  
         & a{
             font-size: 36px;
+            @media #{$lg} {
+                font-size: 28px;
+            }           
+            @media #{$md} {
+                font-size: 22px;
+                line-height: 1;
+            }           
         }
     }
     & p{
         margin: 0;
+        @media #{$md} {
+            font-size: 12px;
+            line-height: 16px;
+            margin-bottom: 10px;
+        }  
     }
 }
 .events-btn{
     & .s-btn{
         padding: 20px 50px;
+        @media #{$lg} {
+            padding: 15px 24px;
+        }
+        @media #{$md} {
+            padding: 10px 20px;
+            margin-left: 9px;
+        }
     }
 }
 
