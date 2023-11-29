@@ -10,6 +10,9 @@
     @media #{$lg} {
         min-height: 760px;
     }
+    @media #{$md} {
+        min-height: 560px;
+    }
 }
 
 .funslider {
@@ -30,6 +33,9 @@
         @media #{$lg} {
             font-size: 56px;
         }
+        @media #{$md} {
+            font-size: 36px;
+        }
     }
 }
 
@@ -41,6 +47,9 @@
             max-width: 100%;
         }
         @media #{$lg} {
+            max-width: 100% ;
+        }
+        @media #{$md} {
             max-width: 100% ;
         }
     }

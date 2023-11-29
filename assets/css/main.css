@@ -2621,6 +2621,11 @@ label {
     min-height: 760px;
   }
 }
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .single-slider {
+    min-height: 560px;
+  }
+}
 
 .funslider span {
   color: #ec6e39;
@@ -2640,6 +2645,11 @@ label {
     font-size: 56px;
   }
 }
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .funslider h2 {
+    font-size: 36px;
+  }
+}
 
 .slider-img img {
   max-width: inherit;
@@ -2654,11 +2664,22 @@ label {
     max-width: 100%;
   }
 }
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .slider-img img {
+    max-width: 100%;
+  }
+}
 
 /* about style */
 .about-img img {
   max-width: inherit;
   margin-left: -40px;
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .about-img img {
+    max-width: 100%;
+    margin-left: 0;
+  }
 }
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
   .about-img img {
@@ -2671,7 +2692,7 @@ label {
   font-size: 50px;
   margin-bottom: 25px;
 }
-@media only screen and (min-width: 992px) and (max-width: 1200px) {
+@media only screen and (min-width: 768px) and (max-width: 991px) {
   .funabout__text h2 {
     font-size: 36px;
   }
@@ -3049,6 +3070,11 @@ label {
   background: #ffffff;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.1);
   transition: 0.3s;
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .funblog:last-child {
+    margin-top: 30px;
+  }
 }
 .funblog:hover {
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0);

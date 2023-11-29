@@ -13,7 +13,8 @@
 	// meanmenu
 	$('#mobile-menu').meanmenu({
 		meanMenuContainer: '.mobile-menu',
-		meanScreenWidth: "992"
+		meanScreenWidth: "991",
+        meanRevealPosition: "right",
 	});
 
 	// One Page Nav
