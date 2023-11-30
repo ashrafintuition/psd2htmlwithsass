@@ -138,20 +138,25 @@
 
 
 
-// contact page
-.contact-menu{
-    & ul{
-        & li{
-            & a{
-                color: $white;
-                &:hover{
-                    color: $theme-color;
-                }
-            }
-            & .sub-menu{
-                & li{
-                    & a{
+
+
+// New page menu ......
+.header-transparent-two{
+    .menu-bg{
+        border: 2px solid #6d6b71;
+        & ul{
+            & li{
+                & a{
+                    color: $white;
+                    &:hover{
                         color: $theme-color;
+                    }
+                }
+                & .sub-menu{
+                    & li{
+                        & a{
+                            color: $theme-color;
+                        }
                     }
                 }
             }

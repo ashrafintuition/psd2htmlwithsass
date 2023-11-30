@@ -2615,13 +2615,16 @@ label {
   padding: 22px 70px;
 }
 
-.contact-menu ul li a {
+.header-transparent-two .menu-bg {
+  border: 2px solid #6d6b71;
+}
+.header-transparent-two .menu-bg ul li a {
   color: #ffffff;
 }
-.contact-menu ul li a:hover {
+.header-transparent-two .menu-bg ul li a:hover {
   color: #ec6e39;
 }
-.contact-menu ul li .sub-menu li a {
+.header-transparent-two .menu-bg ul li .sub-menu li a {
   color: #ec6e39;
 }
 
@@ -3181,16 +3184,26 @@ hr.hr-style {
 }
 .page-title-area .page-title h2 {
   color: #ffffff;
-  font-size: 120px;
+  font-size: 75px;
   text-transform: uppercase;
 }
 .page-title-area .page-title .breadcrumb-menu ul li {
   display: inline-block;
+  padding: 0 10px;
+  position: relative;
 }
-.page-title-area .page-title .breadcrumb-menu ul li a {
-  padding: 0 15px;
-  border-right: 1px solid #f0f0f0;
+.page-title-area .page-title .breadcrumb-menu ul li::before {
+  content: "";
+  position: absolute;
+  top: 3px;
+  left: -1px;
+  height: 22px;
+  width: 2px;
+  background-color: #a7a7a7;
 }
-.page-title-area .page-title .breadcrumb-menu ul li:last-child a {
-  border-right: 1px solid transparent;
+.page-title-area .page-title .breadcrumb-menu ul li:first-child::before {
+  display: none;
+}
+.page-title-area .page-title .breadcrumb-menu ul li span {
+  color: #ec6e39;
 }/*# sourceMappingURL=main.css.map */
