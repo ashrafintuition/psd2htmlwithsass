@@ -2500,6 +2500,7 @@ label {
   top: 0;
   left: 0;
   right: 0;
+  z-index: 99;
 }
 
 .header-social a {
@@ -2612,6 +2613,16 @@ label {
 
 .btn-lg {
   padding: 22px 70px;
+}
+
+.contact-menu ul li a {
+  color: #ffffff;
+}
+.contact-menu ul li a:hover {
+  color: #ec6e39;
+}
+.contact-menu ul li .sub-menu li a {
+  color: #ec6e39;
 }
 
 /*----------  slider style  ----------*/
@@ -3153,4 +3164,33 @@ hr.hr-style {
 
 .copyright a {
   color: #ec6e39;
+}
+
+/**
+ * page title
+ */
+.page-title-area {
+  padding: 350px 0 170px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.page-title-area .page-title {
+  text-align: center;
+  color: #ffffff;
+}
+.page-title-area .page-title h2 {
+  color: #ffffff;
+  font-size: 120px;
+  text-transform: uppercase;
+}
+.page-title-area .page-title .breadcrumb-menu ul li {
+  display: inline-block;
+}
+.page-title-area .page-title .breadcrumb-menu ul li a {
+  padding: 0 15px;
+  border-right: 1px solid #f0f0f0;
+}
+.page-title-area .page-title .breadcrumb-menu ul li:last-child a {
+  border-right: 1px solid transparent;
 }/*# sourceMappingURL=main.css.map */

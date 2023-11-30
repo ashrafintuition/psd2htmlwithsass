@@ -1,0 +1,32 @@
+/**
+ * page title
+ */
+ .page-title-area{
+    padding:350px 0 170px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    & .page-title{
+        text-align: center;
+        color: $white;
+        & h2{
+            color: $white;
+            font-size: 120px;
+            text-transform: uppercase;
+        };
+        & .breadcrumb-menu{
+            & ul{
+                & li{
+                    display: inline-block;
+                    & a{
+                        padding: 0 15px;
+                        border-right: 1px solid #f0f0f0;
+                    }
+                    &:last-child a{
+                        border-right: 1px solid transparent;
+                    }
+                }
+            }
+        }
+    }
+ }

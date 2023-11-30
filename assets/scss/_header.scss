@@ -3,6 +3,7 @@
     top: 0;
     left: 0;
     right: 0;
+    z-index: 99;
 }
 
 .header-social {
@@ -133,4 +134,27 @@
 
 .btn-lg{
     padding: 22px 70px;
+}
+
+
+
+// contact page
+.contact-menu{
+    & ul{
+        & li{
+            & a{
+                color: $white;
+                &:hover{
+                    color: $theme-color;
+                }
+            }
+            & .sub-menu{
+                & li{
+                    & a{
+                        color: $theme-color;
+                    }
+                }
+            }
+        }
+    }
 }
