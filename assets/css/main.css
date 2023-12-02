@@ -3002,8 +3002,11 @@ label {
   align-items: center;
   text-align: center;
 }
-.fact-area .fact {
+.fact-area .fact.fact-border {
   border-right: 1px solid #2d2d35;
+}
+.fact-area .fact.fact-border-3 {
+  border-right: 1px solid transparent;
 }
 .fact-area .fact img {
   width: 50px;
@@ -3032,10 +3035,6 @@ label {
   color: #ec6e39;
   font-size: 14px;
   letter-spacing: 2px;
-}
-
-.fact-area .fact::last-child {
-  border-right: 0 solid #fff;
 }
 
 /**
